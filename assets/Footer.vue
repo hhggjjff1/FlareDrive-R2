@@ -43,7 +43,7 @@ export default {
       homeUrl: "https://yp.m.wzjww.com/",
       blogUrl: "https://yp.m.wzjww.com/",
       githubUrl: "https://github.com/hhggjjff1/",
-      emailUrl: "wzj@wzjww.com"
+      emailUrl: "hhjjggff1@outlook.com"
     };
   }
 };
