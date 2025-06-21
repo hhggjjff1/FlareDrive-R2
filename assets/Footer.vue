@@ -40,10 +40,10 @@ export default {
   name: "Footer",
   data() {
     return {
-      homeUrl: "https://www.liushen.fun/",
-      blogUrl: "https://blog.liushen.fun/",
-      githubUrl: "https://github.com/willow-god",
-      emailUrl: "mailto:01@liushen.fun"
+      homeUrl: "https://yp.m.wzjww.com/",
+      blogUrl: "https://yp.m.wzjww.com/",
+      githubUrl: "https://github.com/hhggjjff1/",
+      emailUrl: "wzj@wzjww.com"
     };
   }
 };
@@ -73,7 +73,7 @@ export default {
   height: 28px;
   display: inline-block;
   fill: #2c2c2c;
-  transition: fill 0.3s;
+  transition: fill 0.3;
 }
 
 .icon-link:hover {
