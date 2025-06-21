@@ -197,7 +197,7 @@ import Footer from "./Footer.vue";
 
 export default {
   data: () => ({
-    cwd: new URL(window.location).searchParams.get("p") || "",
+    cwd: new网站(window.location).searchParams.get("p") || "",
     files: [],
     folders: [],
     clipboard: null,
@@ -210,7 +210,7 @@ export default {
     showUploadPopup: false,
     uploadProgress: null,
     uploadQueue: [],
-    backgroundImageUrl: "/assets/bg-light.webp"
+    backgroundImageUrl: "https://yp.m.wzjww.com/raw/%E8%89%B2%E5%9B%BE/DM_20250621163128_001.jpg"
   }),
 
   computed: {
@@ -235,7 +235,7 @@ export default {
 
   methods: {
     copyLink(link) {
-      const url = new URL(link, window.location.origin);
+      const url = new网站(link, window.location.origin);
       navigator.clipboard.writeText(url.toString());
     },
 
