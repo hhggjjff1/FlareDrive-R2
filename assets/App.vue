@@ -210,7 +210,7 @@ export default {
     showUploadPopup: false,
     uploadProgress: null,
     uploadQueue: [],
-    backgroundImageUrl: "https://yp.m.wzjww.com/raw/%E8%89%B2%E5%9B%BE/DM_20250621163128_001.jpg"
+    backgroundImageUrl: "/assets/bg-light.webp"
   }),
 
   computed: {
